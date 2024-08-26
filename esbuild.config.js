@@ -1,3 +1,4 @@
+const path = require("node:path")
 const build = require("./config/esbuild.defaults.js")
 
 // You can customize this as you wish, perhaps to add new esbuild plugins.
@@ -32,6 +33,8 @@ const build = require("./config/esbuild.defaults.js")
  * @type {BuildOptions}
  */
 const esbuildOptions = {
+  // esdev fails with the KonnorRogers define: { "process.env.BASE_PATH": `"${process.env.BASE_PATH}"` } approach
+  publicPath: "/msp_static/_bridgetown/static",
   plugins: [
     // add new plugins here...
   ],
