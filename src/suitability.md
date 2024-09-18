@@ -6,6 +6,15 @@ title: Suitability
 - group fitness fitness studio
 - personal training studio
 - multi-studio, multi-function
+- gym
+- fitness studio
+- pt studio
+- boxing studio
+- yoga
+- pilates
+- spin
+- martial arts
+- wellness
 
 
 

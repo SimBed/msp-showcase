@@ -83,3 +83,54 @@ hr {
   border-top: 2px dotted #bbb;
   margin: 3rem 0;
 }
+
+img.feature {
+  width: 50%;
+  height: 50%;
+}
+
+.canvas {
+  position: relative;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  &.gray100-canvas {
+    background-color: #eeeeee;;
+  }  
+  &.black-canvas {
+    background-color: black;
+    padding-top: 0;
+    padding-bottom: 0;
+  }  
+  &.embossed {
+    box-shadow: 1px 3px 6px black;
+    border-radius: 0.375rem;
+  }
+  .inner-form {
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 1px 3px 6px black;
+    border-radius: 0.375rem;
+  }  
+  .cancel {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }  
+  &.width32 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+    padding-left: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    @media (min-width: 768px) { 
+      width: 32rem;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+  }
+}

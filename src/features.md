@@ -27,3 +27,6 @@ title: Features
 - penalties - late cancellations / noshows
 - flexible settings panel - eg control booking window, late cancellation definition, maximum freeze duration
 - class timetable - easy updating
+- anything else? Let us know what your business needs
+
+  <img class= 'feature' src="<%= relative_url '/images/purchase_analysis.png' %>" alt="Logo" />
