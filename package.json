@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "esbuild": "node esbuild.config.js --minify",
-    "esbuild-dev": "node esbuild.config.js --watch",    
+    "esbuild-dev": "node esbuild.config.js --watch",
     "build": "NODE_ENV=\"production\" yarn run esbuild && BRIDGETOWN_ENV=\"production\" bundle exec bridgetown build && touch output/.nojekyll"
   },
   "devDependencies": {
@@ -21,6 +21,9 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo": "^8.0.5",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.79.1",
     "turbo-shadow": "^1.2.0"
   }
 }
