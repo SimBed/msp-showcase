@@ -1,0 +1,14 @@
+:root {
+  --navbar-toggler-color: #{$gray-400};
+  --bs-body-font-family: Cabin, sans-serif;
+  .navbar {
+    --bs-navbar-toggler-padding-y: 0.1rem;
+    .nav-link {
+    --bs-nav-link-color: #{$gray-300};
+    --bs-nav-link-hover-color: #{$gray-600};
+      &.active {
+        --bs-navbar-active-color: #{$gray-600};
+      }
+    }
+  }
+}

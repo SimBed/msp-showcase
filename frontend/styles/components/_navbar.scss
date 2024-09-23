@@ -1,0 +1,12 @@
+.navbar {
+  background-color: black;
+    a:not(.btn):not(.dropdown-item).active:hover {
+      color: #{$gray-300};
+    }
+ }
+
+ .navbar-toggler {
+  background-color: var(--navbar-toggler-color);
+  padding: 0.1rem;
+  margin-right: 0.5rem;
+ }

@@ -1,11 +1,15 @@
-<header class='mb-5'>
-  <img src="<%= relative_url '/images/msp_neon_logo25.png' %>" alt="Logo" />
-</header>
-
-<nav>
-  <ul>
-    <li><a href="<%= relative_url '/' %>">Home</a></li>
-    <li><a href="<%= relative_url '/features' %>">Features</a></li>
-    <li><a href="<%= relative_url '/suitability' %>">Suitability</a></li>
-  </ul>
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="<%= relative_url '/' %>"><img src="<%= relative_url '/images/msp_neon_logo25.png' %>" alt="Logo" width="240" height="92" class="d-inline-block"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="<%= relative_url '/' %>">Home</a>
+        <a class="nav-link" href="<%= relative_url '/features' %>">Features</a>
+        <a class="nav-link" href="<%= relative_url '/suitability' %>">Suitability</a>
+      </div>
+    </div>
+  </div>
 </nav>

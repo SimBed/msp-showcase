@@ -2,6 +2,7 @@ import "$styles/index.css"
 import "$styles/index.scss"
 import "$styles/syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
+import * as bootstrap from 'bootstrap'
 import { Application } from "@hotwired/stimulus"
 
 /**

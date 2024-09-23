@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="canvas gray100-canvas embossed mb-2 d-inline">
+<div class="canvas gray100-canvas embossed mb-2 d-inline" data-toggle="tooltip" data-placement="top" title="This client has completed a health declaration.">
   Membership System Pro is the booking software for the nimble business.
 </div>
 

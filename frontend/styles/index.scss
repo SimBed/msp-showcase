@@ -1,1 +1,4 @@
-@import "~bootstrap/scss/bootstrap.scss";
+@import "./config/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "./config/css-variables";
+@import './components/_index';
