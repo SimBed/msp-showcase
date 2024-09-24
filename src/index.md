@@ -33,6 +33,6 @@ layout: default
   Commercial software focussed on multi-national clients can be over-whelming, rigid and cost prohibitive.
 </div>
 
-<div class="canvas canvas-text canvas-black canvas-embossed">
+<div class="canvas canvas-text canvas-black canvas-embossed mb-3">
   Enter Membership System Pro. A light-weight, intutitive, flexible system, so you can get on plying your trade and growing your business, without getting swamped in administration.
 </div>

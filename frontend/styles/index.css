@@ -59,20 +59,16 @@ body > nav a {
 }
 
 main {
-  margin: 0rem auto;
+  /* margin: 0rem auto; */
   /* max-width: 65rem; */
-  min-height: calc(100vh - 200px);
-  padding: 25px 25px 50px;
+  /* min-height: calc(100vh - 200px); */
+  padding: 2rem;
   @media (max-width: 500px) {
-    padding: 16px 16px 50px;
+    padding: 1rem 1rem;
   }
 }
 
-footer {
-  text-align: center;
-  margin-bottom: 4rem;
-  font-size: 1em;
-}
+
 
 hr {
   border: none;
@@ -85,6 +81,5 @@ img.feature {
   @media (max-width: 500px) {
 
   }  
-  /* width: 50%;
-  height: 50%; */
+
 }
