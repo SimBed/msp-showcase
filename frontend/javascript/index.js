@@ -3,6 +3,8 @@ import "$styles/index.scss"
 import "$styles/syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import * as bootstrap from 'bootstrap'
+import "./custom/headroom"
+import "./custom/animation"
 import { Application } from "@hotwired/stimulus"
 
 /**
