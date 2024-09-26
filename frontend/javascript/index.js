@@ -3,8 +3,10 @@ import "$styles/index.scss"
 import "$styles/syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import * as bootstrap from 'bootstrap'
-import "./custom/headroom"
+// keep animation ahead of headroom otherwise headroom seems not to work
 import "./custom/animation"
+// issues with sticky navbar and IntersectionObserver so abandoned sticky navbar and headroom for now
+import "./custom/headroom"
 import { Application } from "@hotwired/stimulus"
 
 /**

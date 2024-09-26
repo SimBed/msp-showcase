@@ -29,10 +29,12 @@
    animation: animate 0.4s linear;  
  }
 
+// applies to headroom.js (temporarily withdrawn)
 nav.disappear {
   transform: translateY(-100%);
 }
 
+// applies to headroom.js (temporarily withdrawn)
 .navbar-space {
   padding-top: 8rem;
   @include media-breakpoint-up(lg) {
