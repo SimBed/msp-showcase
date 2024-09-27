@@ -1,6 +1,5 @@
 const images = document.getElementsByClassName('canvas-image');
-// const texts = document.getElementsByClassName('canvas-text');
-// images[0].getElementsByTagName("img")[0].classList.add("show");
+const texts = document.getElementsByClassName('canvas-text');
 
 const imageAnimate = (entries, observer) => {
   for (const entry of entries) {
@@ -15,19 +14,15 @@ const imageAnimate = (entries, observer) => {
   }
 };
 
-// const textAnimate = (entries, observer) => {
-//   for (const entry of entries) {
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add("show");
-//       entry.target.remove("hidden");
-
-//     } else {
-//       console.log('text intersect');
-//       entry.target.classList.add("hidden");
-//       entry.target.classList.remove("show");
-//     }
-//   }
-// };
+const textAnimate = (entries, observer) => {
+  for (const entry of entries) {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("canvas-embossed");
+    } else {
+      entry.target.classList.remove("canvas-embossed");
+    }
+  }
+};
 
 const objOptions = {
   root: null,
@@ -39,7 +34,7 @@ for (const image of images) {
   imageObserver.observe(image);
 }
 
-// const textObserver = new IntersectionObserver(textAnimate, objOptions);
-// for (const text of texts) {
-//   textObserver.observe(text);
-// }
+const textObserver = new IntersectionObserver(textAnimate, objOptions);
+for (const text of texts) {
+  textObserver.observe(text);
+}

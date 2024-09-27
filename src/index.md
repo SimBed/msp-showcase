@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class='navbar-space'>
+<section>
   <div class="canvas canvas-text canvas-black canvas-embossed mt-0">
     Membership System Pro is the booking software for the nimble business.
   </div>
@@ -139,4 +139,8 @@ layout: default
   <div class="canvas canvas-text canvas-black canvas-embossed mb-3">
     Enter Membership System Pro. A light-weight, intutitive, flexible system, so you can get on plying your trade and growing your business, without getting swamped in administration.
   </div>
+
+  <div class="canvas canvas-image canvas-gray100 canvas-embossed my-2">
+    <img class= 'feature' src="<%= relative_url '/images/purchase_analysis.png' %>" alt="Logo" />
+  </div>  
 </section>  
