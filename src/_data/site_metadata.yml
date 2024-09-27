@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Your awesome title
-tagline: This site is totally awesome
+title: Membership System Pro
+tagline: We lift heavy and dance light
 email: membershipsystempro@gmail.com
 description: >-
-  Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+  light-weight, intutitive, flexible gym software, so you can get on growing your business, without getting swamped in administration.

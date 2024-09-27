@@ -6,6 +6,7 @@ title: Suitability
 - group fitness fitness studio
 - personal training studio
 - multi-studio, multi-function
+- free-lance instructor
 - gym
 - boxing studio
 - yoga
