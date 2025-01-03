@@ -1,12 +1,12 @@
 .navbar {
-  background-color: black;
+  background-color: $gray-200;
   @media (min-width: 768px) { 
     width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
   a:not(.btn):not(.dropdown-item).active:hover {
-    color: #{$gray-300};
+    color: #{$gray-500};
   }
  }
 

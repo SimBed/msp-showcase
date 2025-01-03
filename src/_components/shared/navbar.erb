@@ -1,14 +1,17 @@
 <nav class="navbar navbar-expand-lg navbar-sticky">
   <div class="container-fluid">
-    <a class="navbar-brand" href="<%= relative_url '/' %>"><img src="<%= relative_url '/images/msp_neon_logo25.png' %>" alt="Logo" width="240" height="92" class="d-inline-block"></a>
+    <a class="navbar-brand" href="<%= relative_url '/' %>"><img src="<%= relative_url '/images/logo_msp.png' %>" alt="Logo" width="240" height="92" class="d-inline-block"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="<%= relative_url '/' %>">Home</a>
-        <a class="nav-link" href="<%= relative_url '/features' %>">Features</a>
-        <a class="nav-link" href="<%= relative_url '/suitability' %>">Suitability</a>
+        <% %w[index features suitability].each do |page| %>
+          <% current_page = true if page == @resource.data.page %>
+          <% page_url = page == 'index' ? '/' : page  %>
+          <% page = 'home' if page == 'index' %>
+          <a class="nav-link <%= 'active' if current_page %>" href="<%= relative_url page_url %>"><%=page%></a>
+        <% end %>
       </div>
     </div>
   </div>

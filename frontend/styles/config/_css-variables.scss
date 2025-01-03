@@ -1,13 +1,14 @@
 :root {
   --navbar-toggler-color: #{$gray-400};
   --bs-body-font-family: Cabin, sans-serif;
+  --bs-accordion-bg: #{$gray-400};
   .navbar {
     --bs-navbar-toggler-padding-y: 0.1rem;
     .nav-link {
-    --bs-nav-link-color: #{$gray-300};
-    --bs-nav-link-hover-color: #{$gray-600};
+    --bs-nav-link-color: #{$gray-500};
+    --bs-nav-link-hover-color: #{$gray-800};
       &.active {
-        --bs-navbar-active-color: #{$gray-600};
+        --bs-navbar-active-color: #{$gray-700};
       }
     }
   }
