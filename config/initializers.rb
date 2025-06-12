@@ -1,6 +1,6 @@
 Bridgetown.configure do |config|
   config.url = ENV.fetch("URL", "https://Simbed.github.io")
-  config.base_path = ENV.fetch("BASE_PATH", "/msp_static")
+  config.base_path = ENV.fetch("BASE_PATH", "/msp-showcase")
   config.base_url = config.url + config.base_path  
   # You can configure aspects of your Bridgetown site here instead of using
   # `bridgetown.config.yml`. For example:
