@@ -33,3 +33,7 @@ template_engine: erb
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+# DPS - trying to resolve caching issue
+webpack:
+  path: "/_bridgetown/static"
